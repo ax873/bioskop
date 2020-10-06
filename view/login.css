@@ -1,0 +1,167 @@
+body {
+	background:url("images/bg.jpg") repeat-x #e3e3e3;
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+	font-size: 19px;
+	color: #838383;
+}
+
+a {
+  	text-decoration: none;
+  	color: red;
+}
+
+a:hover{
+  	text-decoration: none;
+  	color: #000;
+}
+
+.level {
+	margin: 0px 0px 1px 0px; 
+	border:1px solid #adacac;
+	color: red;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:22px;
+	padding:3px 5px;
+	background: #FFFFFF;
+	outline:none;
+	width: 203%;
+}
+
+#login {
+	width: 350px;
+	margin: 180px auto 0;
+	margin-top: 7%;
+	padding: 25px; 
+	background-color:#cecece;
+	border:1px solid #000;
+	border-radius: 8px;
+}
+
+.fieldContainer{
+	/* The light rounded section, which contans the fields */
+	background-color:#cecece;
+	padding:25px;
+}
+
+.formRow{
+	height:17px;
+	padding:10px;
+	position:relative;
+}
+
+.label{
+	float:left;
+	padding:0 20px 0 0;
+	text-align:right;
+	width:70px;
+}
+
+label{
+	font-family:Century Gothic,Myriad Pro,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	letter-spacing:1px;
+	line-height:35px;
+}
+
+.field{
+	float:left;
+}
+
+.field input{
+	/* The text boxes */
+	border:1px solid #adacac;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:22px;
+	padding:4px 5px;
+	margin-top:3px;
+	margin-left: 10px;
+	background: #FFFFFF;
+	outline:none; /* Preventing the default Safari and Chrome text box highlight */
+}
+
+.signupButton{
+	/* The submit button container */
+	text-align:center;
+	padding:20px 0 10px;
+}
+
+#submit{
+	/* The submit button */
+	border:1px solid #f4f4f4;
+	cursor:pointer;
+	height:40px;
+	text-transform:uppercase;
+	width:130px;
+	color: #fff;
+	background: #212020;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+}
+
+#submit.active{
+	/* Marking the submit button as active adds the preloader gif as background */
+	background-image:url("img/preloader.gif");
+}
+
+#submit:hover{
+	background-color:#000;
+	border:1px solid white;
+}
+
+input:hover,
+input:focus{
+	-moz-box-shadow:0 0 8px lightblue;
+	-webkit-box-shadow:0 0 8px lightblue;
+	box-shadow:0 0 8px lightblue;
+}
+
+h1,h3,h4,h5 {
+	color: #000;
+	font-size: 40px;
+	font-family:Century Gothic,Myriad Pro,Arial,Helvetica,sans-serif;
+	text-align: center;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #000;
+}
+
+
+#footer{
+	background-color:#212121;
+	position:fixed;
+	width:100%;
+	height:60px;
+	bottom:0;
+	left:0;
+	z-index: 100000;
+
+}
+
+#footer h2{
+	font-size:20px;
+	font-weight:normal;
+	left:50%;
+	margin-left:-400px;
+	padding:7px 0;
+	position:absolute;
+	width:400px;
+	color:#eee;
+}
+
+#footer a.robby,a.robby:visited{
+	background:url("../img/tzine.png") no-repeat right top;
+	border:none;
+	text-decoration:none;
+	color:#e3e3e3;
+	font-size:12px;
+	height:50px;
+	left:50%;
+	line-height:31px;
+	margin:18px 0 0 110px;
+	position:absolute;
+	top:0;
+	width:590px;
+}

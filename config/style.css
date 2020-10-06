@@ -1,0 +1,241 @@
+body
+{
+	background-image	: url(../images/furniture2.jpg);
+	text-align			: center;
+	font-family			: Tahoma;
+}
+#header
+{
+	position			: relative;
+	background-color	: #FFF;
+	margin-right		: auto;
+	margin-left			: auto;
+	background-image	: url(../images/header.jpg);
+	background-repeat	: no-repeat;
+	width				: 960px;
+	border				: 2px solid #265180;
+	padding-top			: 170px;
+	text-align			: left;
+}
+#menu_atas
+{
+	position			: relative;
+	margin-right		: auto;
+	margin-left			: auto;
+	width				: 960px;
+	height				: 30px;	
+	background-color	: #E6D9D0;
+}
+#menu_atas ul 
+{ 
+	margin				: 0;
+	padding				: 0;
+	list-style-type		: none;
+	font-size			: 100%;
+	cursor				: default;
+	width				: auto;
+}
+#menu_atas ul li
+{ 
+	float:right; 
+	border-left:#AD6B37 2px solid;
+	height:30px;
+}
+#menu_atas ul li a 
+{ 
+	display: block;
+	cursor: pointer;
+	padding: 5px 50px;
+	color: #B36C3E;
+	text-decoration: none;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+}
+#menu_atas ul li:hover 
+{ 
+	background:#AD6B37; 
+}
+#menu_atas ul li ul 
+{ 
+	display:none; 
+	background:#000000; 
+	border-top:#E0CD89 1px solid; 
+}
+#menu_atas ul li:hover ul 
+{ 
+	display:block; 
+	position:absolute; 
+}
+#menu_atas ul li:hover ul li 
+{
+	position:absolute;
+	display:block; 
+	float:none; 
+	border-right:0px; 
+	border-bottom:#F00 1px solid; 
+}
+#menu_atas ul li:hover ul li a 
+{ 
+	line-height:20px; 
+}
+#menu_atas ul li:hover 
+{
+	border-collapse:collapse;
+	background-color:#E0CD89; 
+}
+#menu_atas a:link, #menu_atas a:visited
+{
+	color: #AD6B37;
+}
+#menu_atas a:hover
+{
+	color: #B36C3E;
+	text-decoration: none;
+}
+#kiri
+{
+	position			: relative;
+	float				: left;
+	width				: 220px;
+	background-color	: #E0CD89;
+}
+#content
+{
+	position			: relative;
+	margin-left			: 230px;
+	padding				: 20px 10px 0 0;
+}
+#content p
+{
+	font-size			: 80%;
+	line-height			: 1.8em;
+	padding-left		: 2em;
+}
+#menu
+{
+	position			: absolute;
+	top					: 150px;
+	left				: 0;
+	width				: 960px;
+}
+#menu ul
+{
+	list-style			: none;
+	margin				: 0;
+	padding				: 0;
+	border				: none;
+}
+#menu li
+{
+	width				: 180px;
+	border-bottom		: 1px solid #969BA5;
+	margin				: 0;
+	padding				: 0;
+	font-size			: 80%;
+	vertical-align		: bottom;
+}
+#menu a:link, #menu a:visited
+{
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 12px solid #265180;
+	border-right: 1px solid #265180;
+	background-color: #CAD6EC;
+	color: #265180;
+	text-decoration: none;
+}
+#menu a:hover
+{
+	background-color: #265180;
+	color: #FFFFFF;
+}
+a:link, a:visited
+{
+	color: #265180;
+}
+a:hover
+{
+	color: #FF6600;
+	text-decoration: none;
+}
+h2
+{
+	font				: normal 120% Georgia;
+	color				: #AD6B37;
+	background-color	: transparent;
+	border-bottom		: 1px dotted #265180;
+}
+h3
+{
+	font				: normal 120% Georgia;
+	color				: #AD6B37;
+	background-color	: transparent;
+}
+h4
+{
+	font				: normal 100% Comic Sans MS;
+	color	   			: #AD6B37;
+	padding-left		: 4px;
+	text-align			: justify;
+	line-height			: 18px;
+}
+h5
+{
+	font				: bold 100% Comic Sans MS;
+	color	   			: #AD6B37;
+	padding-left		: 4px;
+	text-align			: justify;
+	line-height			: 18px;
+}
+img
+{
+	margin-left: 150;	
+}
+table
+{
+	font-family: Tahoma;
+	font-size: 8pt;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+th
+{
+	color: #FFFFFF;
+	font-size: 7pt;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.5em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+	background-color: #265180;
+}
+td
+{
+	padding: 0.5em;
+	color: #333333;
+	vertical-align: top;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+}
+input,textarea,select
+{
+	font-family: Tahoma;
+	font-size: 8pt;
+}
+#footer
+{
+	clear				: both;
+	padding				: 20px 0 10px 380px;
+	font-size			: 70%;
+	color				: #FFFFFF;
+	background-color	: #AD6B37;
+}
